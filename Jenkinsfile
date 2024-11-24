@@ -6,7 +6,7 @@ pipeline {
        dockerImage = ''
            }
   tools {
-    maven 'Maven' 
+    maven 'maven-integration' 
        }
   stages {
     stage ('Build') {
